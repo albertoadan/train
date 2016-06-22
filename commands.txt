@@ -1,0 +1,5 @@
+distance? ABC
+distance? AD
+distance? ADC
+distance? AEBCD
+distance? AED
