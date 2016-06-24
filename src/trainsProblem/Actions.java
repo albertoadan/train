@@ -41,9 +41,7 @@ public class Actions {
 	}
 	
 	public Actions() {            
-		//actionFactory = new ActionFactory();
-                actionsMap = new TreeMap<String, Class<?> >();		
-		actionsMap.put("distance?", DistanceAction.class);
+		actionFactory = new ActionFactory();
 		actionsList   = new ArrayList<Action>();
 	}
 	
